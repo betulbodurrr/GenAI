@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YAPAY GALERİ</title>
+  <link rel="icon" type="image/png" href="./img/logo-canva.png"> <!-- Favicon ekleme -->
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll; /* Dikey kaydırma çubuğunu ekle */
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+      grid-gap: 20px; /* Boşluklar */
+      padding: 20px;
+    }
+    .gallery-item {
+      text-align: center;
+    }
+    .gallery-item img {
+      width: 200px; /* Sabit resim genişliği */
+      height: 150px; /* Sabit resim yüksekliği */
+      margin-bottom: 10px;
+      border: 2px solid black; /* Siyah çerçeve */
+    }
+    .gallery-item button {
+      background-color: #4CAF50; /* Yeşil */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      font-size: 8px; /* Footer metin boyutu */
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>YAPAY GALERİ</h1>
+</header>
+
+<nav>
+  <a href="#">Anasayfa</a>
+  <a href="#">Hakkımızda</a>
+  <a href="#">İletişim</a>
+</nav>
+
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="./img/canva-1.png" alt="Resim 1">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>Tweety type of influencer persona who eats with friends.(CANVA)"</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/canva-5.png" alt="Resim 2">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>looney Tunes characters turned into humans and took a picture in front of the Galata Tower.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/canva-2.png" alt="Resim 3">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>Tom and Jerry enjoy a delicious kebab meal at a local kebab shop, savoring the flavors and sharing a moment of culinary bliss.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/pixlr-image-generator.png" alt="Resim 4">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>"Daffy Duck, the iconic Looney Tunes character known for his quick wit and sarcastic humor, takes a surprising turn as he dabbles in the world of coding. With a determined look in his eyes, he sits in front of a computer screen, surrounded by lines of code.(pixlr)</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/canva-4.png" alt="Resim 5">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>A picture of an elephant doing ballet in a ballerina outfit.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/canva-6.png" alt="Resim 6">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>A cartoon where a group of vegetables form a rock band and perform on stage.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/canva-7.png" alt="Resim 7">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>An illustration of a chicken piloting a plane and flying it in the sky.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/canva-6.png" alt="Resim 8">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>A picture of a snowman going to the beach for summer vacation and enjoying the sea.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./img/canva-3.png" alt="Resim 9">
+    <br>
+    <button onclick="likeButtonClick(this)">Beğen</button>
+    <p>Mona Lisa is wearing jeans and a T-shirt, sitting in a cafe and drinking a latte.</p>
+  </div>
+</div>
+<footer>
+  <p>Tüm hakları saklıdır © 2024 YAPAY GALERİ</p>
+</footer>
+
+<script>
+  function likeButtonClick(button) {
+    button.style.backgroundColor = "red"; // Buton rengini kırmızı yap
+    button.innerText = "Beğendin"; // Buton metnini değiştir
+    button.disabled = true; // Butonu devre dışı bırak
+    var image = button.previousElementSibling; // Butonun önceki kardeşi (resim)
+    image.style.border = "2px solid green"; // Resmin çerçeve rengini yeşil yap
+  }
+</script>
+
+</body>
+</html>
