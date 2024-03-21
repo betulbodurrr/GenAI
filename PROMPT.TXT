@@ -1,0 +1,24 @@
+#ChatGPT 3.5
+1- Bir web sitesi yapmak istiyorum. HTML kodu ve css kodundan oluşmalı burada 9 tane görüntüyü göstermek istiyorum.Sitenin adı:"YAPAY GALERİ". Site bir logoya da sahip olmalı.Resimlerin altında adları yazmalı.  navbar ve footer bulunmalı.navbarda bir sitede olabilecek bilgiler olabilir.bu fotoğrafları beğenme butonu ekleyebilirsin.Kısaca stock fotoğrafların bulunduğu site gibi olmalı.bu isterleri sağlacak kodun tamamını atabilir misin? bunları txt dosyasına yazacağım tek bir kod olarak bana at
+Görüntülerin ve butonların düzeni karışık gözüküyor. butonların ve resimlerin boyutlarını sabit olarak tanımla
+
+2-resimleri ve butonları 3x3 şeklinde yerleştir
+
+3-resimlere siyah çerçeve ekle ve beğen butonuna basıldığında çerçeve rengini yeşil yap.beğen butonunun üstüne tıklanıldığında butonu kırmızı renk yap. gerekirse javascript kodu da ekleyebilirsin.yazdığın kodda 9 resim içinde kod bulunsun.
+
+4-Bu sitede favicon olmasını istiyorum bunu güncelleyip kodu tekrar yazar mısın?
+
+5-resimlerin altındaki yazılar gözükmüyor bunun için  scroll bar ekleyip kodun tamamını atar mısın? resimlerle ilgili kodu tamamen yaz.
+
+6-footerdan dolayı son 3 görselin yazıları gözükmüyor. footerı en alta sabitler misin ve daha küçük olsun.
+
+#Görüntü Promptları
+1-Tweety type of influencer persona who eats with friends.
+2-looney Tunes characters turned into humans and took a picture in front of the Galata Tower.
+3-Tom and Jerry enjoy a delicious kebab meal at a local kebab shop, savoring the flavors and sharing a moment of culinary bliss.
+4-Daffy Duck, the iconic Looney Tunes character known for his quick wit and sarcastic humor, takes a surprising turn as he dabbles in the world of coding. With a determined look in his eyes, he sits in front of a computer screen, surrounded by lines of code.
+5-A picture of an elephant doing ballet in a ballerina outfit.
+6-A cartoon where a group of vegetables form a rock band and perform on stage.
+7-An illustration of a chicken piloting a plane and flying it in the sky.
+8-A picture of a snowman going to the beach for summer vacation and enjoying the sea.
+9-Mona Lisa is wearing jeans and a T-shirt, sitting in a cafe and drinking a latte.
