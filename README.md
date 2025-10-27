@@ -1,5 +1,7 @@
 # GenAI
 
+<img align="center" src="https://github.com/betulbodurrr/GenAI/blob/main/GenAIWeb.png"  height="400" width="700" /><br>
+
 <img align="center" src="https://www.svgrepo.com/show/237418/turkey.svg"  height="30" width="40" />Tr:</a><br>
 
 ## 📘 Proje Hakkında  
